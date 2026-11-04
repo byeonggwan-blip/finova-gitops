@@ -82,7 +82,7 @@
                 "value": "6379"
               }
             ],
-            "image": "ghcr.io/byeonggwan-blip/finova-backend:7d69327f6d672a5da75cf321aa55883d63298f71",
+            "image": "ghcr.io/byeonggwan-blip/finova-backend:da1850431f24acbfe07193c24b26a32e9618602a",
             "imagePullPolicy": "IfNotPresent",
             "livenessProbe": {
               "failureThreshold": 3,
