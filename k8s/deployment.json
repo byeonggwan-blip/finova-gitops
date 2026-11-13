@@ -118,7 +118,7 @@
                 }
               }
             ],
-            "image": "ghcr.io/byeonggwan-blip/finova-backend:da1850431f24acbfe07193c24b26a32e9618602a",
+            "image": "ghcr.io/byeonggwan-blip/finova-backend:4d5c9ccdbee52686ce5849448b955052e856188e",
             "imagePullPolicy": "IfNotPresent",
             "livenessProbe": {
               "failureThreshold": 3,
