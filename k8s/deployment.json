@@ -80,6 +80,42 @@
               {
                 "name": "SPRING_DATA_REDIS_PORT",
                 "value": "6379"
+              },
+              {
+                "name": "AWS_ACCESS_KEY_ID",
+                "valueFrom": {
+                  "secretKeyRef": {
+                    "name": "finova-s3-credentials",
+                    "key": "AWS_ACCESS_KEY_ID"
+                  }
+                }
+              },
+              {
+                "name": "AWS_SECRET_ACCESS_KEY",
+                "valueFrom": {
+                  "secretKeyRef": {
+                    "name": "finova-s3-credentials",
+                    "key": "AWS_SECRET_ACCESS_KEY"
+                  }
+                }
+              },
+              {
+                "name": "AWS_REGION",
+                "valueFrom": {
+                  "secretKeyRef": {
+                    "name": "finova-s3-credentials",
+                    "key": "AWS_REGION"
+                  }
+                }
+              },
+              {
+                "name": "AWS_S3_BUCKET",
+                "valueFrom": {
+                  "secretKeyRef": {
+                    "name": "finova-s3-credentials",
+                    "key": "AWS_S3_BUCKET"
+                  }
+                }
               }
             ],
             "image": "ghcr.io/byeonggwan-blip/finova-backend:da1850431f24acbfe07193c24b26a32e9618602a",
